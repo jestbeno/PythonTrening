@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BeeEditor</class>
+ <widget class="QMainWindow" name="BeeEditor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>941</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>962</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatoteka">
+    <property name="title">
+     <string>Datoteka</string>
+    </property>
+    <addaction name="actionOdpri"/>
+    <addaction name="actionShrani"/>
+    <addaction name="actionShrani_kot"/>
+    <addaction name="separator"/>
+    <addaction name="actionIzhod"/>
+   </widget>
+   <addaction name="menuDatoteka"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOdpri">
+   <property name="text">
+    <string>Odpri</string>
+   </property>
+  </action>
+  <action name="actionShrani">
+   <property name="text">
+    <string>Shrani</string>
+   </property>
+  </action>
+  <action name="actionShrani_kot">
+   <property name="text">
+    <string>Shrani kot</string>
+   </property>
+  </action>
+  <action name="actionIzhod">
+   <property name="text">
+    <string>Izhod</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
