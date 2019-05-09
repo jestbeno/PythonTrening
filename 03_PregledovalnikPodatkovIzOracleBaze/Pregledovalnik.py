@@ -19,7 +19,7 @@ import numpy as np
 ############################## CONNECT TO ORACLE DATABASE ################################
 import cx_Oracle
 
-dsn_tns = cx_Oracle.makedsn('tajfun.arso.sigov.si', 1521, service_name='tajfun.arso.sigov.si')
+dsn_tns = cx_Oracle.makedsn('*****************', **********, service_name='***************')
 
 # Files
 UIFile = "Pregledovalnik4.ui"
@@ -85,7 +85,7 @@ class MainWindow(QMainWindow,UI_MainWindow ):
         self.__temperatura = temperatura
 
     def plotKontrolna(self):
-        con = cx_Oracle.Connection(user="nucic", password="BNucic", dsn=dsn_tns)
+        con = cx_Oracle.Connection(user="*********", password="**********", dsn=dsn_tns)
         IzborKolicine = 1
         if self.RadioButtonH.isChecked():
             IzborKolicine = 1
